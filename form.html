@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form demo</h1>
+
+    <form action="/tacos" placeholder="username">
+        <p>
+            <label for="username">Enter a Username:</label><!-- placeholder label for your box-->
+            <input type="text" placeholder="username" id="username" name="username">
+        </p>
+        <p>
+            <label for="password"> Enter a Password</label> <!-- placeholder label for your box-->
+            <input type="Password" placeholder="password" id="password" name='password'>
+        </p>
+        <p>
+            <label for="color">Enter a Color</label>
+            <input type="color" id="color" name=color>
+        </p>
+        <p>
+            <label for="number">Enter a number</label>
+            <input type="number" placeholder="enter a number" name=number> <-- we use this because we can style this
+                individually </p>
+                <button type='button'>Submit</button>
+                <input type="Submit" value="Click me!">
+
+
+
+    </form>
+    <button>Not Inside Form</button>
+    <form action="https://www.reddit.com/search">
+        <input type='text' name="q">
+        <button>Search reddit</button>
+    </form>
+    <form action="https://www.google.com/search">
+        <input type='text' name="q">
+        <button>Search Google</button>
+    </form>
+</body>
+
+</html>
